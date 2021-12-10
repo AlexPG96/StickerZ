@@ -1,0 +1,52 @@
+.stickers-title {
+    font-size: 3rem;
+    line-height: 65px;
+    padding-bottom: 15px;
+    padding-right: 8rem;
+
+    @media (max-width: 400px) {
+        padding-right: 0rem;
+    }
+}
+
+.stickers-paragraph {
+    color: var(--color-subtext-1);
+    padding-right: 5rem;
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+    line-height: 45px;
+
+    @media (max-width: 400px) {
+        padding-right: 0rem;
+    }
+}
+
+.stickers-description {
+    color: var(--color-subtext-1);
+    padding-right: 5rem;
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+    line-height: 45px;
+
+    @media (max-width: 400px) {
+        padding-right: 0rem;
+    }
+}
+
+.stickers-link {
+    font-size: 1.2rem;
+    color: #EF557B;
+
+    &:hover {
+        color: #FF557B
+    }
+}
+
+.stickers-image {
+    border-radius: 25px;
+    width: 100%;
+
+    @media (max-width: 400px) {
+        margin-top: 25px;
+    }
+}

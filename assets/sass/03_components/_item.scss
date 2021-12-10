@@ -1,0 +1,36 @@
+.item-card {
+    border-radius: 5px;
+    width: 55%;
+    height: 13rem;
+    padding: 15px;
+    margin: 25px auto;
+
+    .item-card-body {
+        border-radius: 50px;
+    
+        .item-card-image a{
+                display: block;
+                background-color: var(--color-light);
+                border-radius: 50px;
+                width: 65px;
+                padding: 20px;
+                box-shadow: var(--box-shadow-secondary-2);
+                margin: 25px auto;
+                text-decoration: none;
+                color: var(--color-dark);
+            
+                svg {
+                    margin-left: 2px;
+                    margin-top: 5px;
+                }
+        }
+
+        .item-card-title p{
+            color: var(--color-dark);
+            font-weight: 500;
+            text-transform: capitalize;
+            margin-top: 50px;
+        }
+    
+    }
+}

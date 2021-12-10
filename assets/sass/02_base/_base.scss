@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+  
+    *, *::before, *::after {
+      box-sizing: border-box;
+      -ms-word-wrap: break-word;
+      word-wrap: break-word;
+    }
+}
+
+#app {
+  background: linear-gradient(to right, var(--color-secondary-1), var(--color-secondary-2));
+
+  .main {
+    position: relative;
+  }
+}
+

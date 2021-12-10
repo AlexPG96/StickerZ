@@ -1,0 +1,54 @@
+nav {
+    
+    .navbar-brand {
+      color: #332F53;
+      font-weight: bold;
+      font-size: 1.8rem;
+        
+      .orange {
+        color: var(--color-primary);
+      }
+    }
+
+    .navbar-nav {
+
+
+      .nav-item {
+
+        a {
+          color: #000;
+          text-decoration: none;
+
+          &:hover {
+            color: var(--color-primary);
+            transition-duration: 0.3s;
+          }
+        }
+      }
+    }
+
+    form {
+      position: relative;
+
+      .form-control {
+        width: 60%;
+        height: 40px;
+        border-radius: 25px;
+    
+
+        &:focus {
+            border-color: var(--color-primary);
+            box-shadow: var(--box-shadow-primary)
+        }
+
+        }
+
+      button {
+        display: block;
+      }
+
+      .btn:focus {
+        box-shadow: var(--box-shadow-primary)
+      }
+    }
+}

@@ -1,0 +1,79 @@
+.navbar-brand {
+    color: #332F53;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-right: 0;
+      
+    .orange {
+      color: var(--color-primary);
+    }
+
+    &:hover {
+        color: #332F53;
+    }
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    
+    li {
+        font-weight: 500;
+        margin: 0 auto 15px auto;
+        
+        a {
+            text-decoration: none;
+            color: var(--color-dark);
+
+            &:hover {
+                color: var(--color-subtext-1);
+            }
+        }
+    }
+}
+
+.contact-title {
+    font-weight: 500;
+
+}
+.contact-tel {
+
+    a {
+        text-decoration: none;
+        color: var(--color-dark);
+    }
+}
+
+.social-icons {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .icon {
+        background-color: var(--color-light);
+        color: var(--color-dark);
+        cursor: pointer;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: var(--box-shadow-secondary-2);
+
+        svg {
+            width: 100%;
+            height: 100%;
+            padding: 18px;
+        }
+        
+
+    }
+
+}
+
+.developed {
+
+    a {
+        color: #332F53;
+    }
+}
